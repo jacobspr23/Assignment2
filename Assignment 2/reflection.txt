@@ -1,0 +1,3 @@
+In the object-oriented version, my thought process was centered around modeling the problem as interacting objects, each responsible for a particular aspect of the analysis. Classes held their own internal state, and methods operated on that state. The structure naturally led me to segment the logic into components like FileAnalyzer or NamingConventionChecker objects.
+
+For the functional version, the thought process changed. Instead of thinking about objects and their responsibilities, I focused on data transformations and the flow of information. This would be things like rather than storing data in an object's fields and mutating it, I passed data from one function to another. 
